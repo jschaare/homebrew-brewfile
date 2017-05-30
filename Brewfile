@@ -81,5 +81,5 @@ cask 'sublime-text'
 cask 'keepingyouawake'
 cask 'vlc'
 cask 'spotify'
-cask 'dropbox'
+cask 'dropbox' unless File.directory?("/Applications/Dropbox.app")
 cask 'the-unarchiver'
